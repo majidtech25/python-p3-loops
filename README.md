@@ -5,26 +5,26 @@
 - Write basic loops with the `for` and `while` constructs.
 - Use generator and list comprehensions to accomplish complex tasks quickly.
 
-***
+---
 
 ## Key Vocab
 
 - **Interpreter**: a program that executes other programs. Python programs
-require the Python interpreter to be installed on your computer so that they
-can be run.
+  require the Python interpreter to be installed on your computer so that they
+  can be run.
 - **Python Shell**: an interactive interpreter that can be accessed from the
-command line.
+  command line.
 - **Data Type**: a specific kind of data. The Python interpreter uses these
-types to determine which actions can be performed on different data items.
+  types to determine which actions can be performed on different data items.
 - **Exception**: a type of error that can be predicted and handled without
-causing a program to crash.
+  causing a program to crash.
 - **Code Block**: a collection of code that is interpreted together. Python
-groups code blocks by indentation level.
+  groups code blocks by indentation level.
 - **Function**: a named code block that performs a sequence of actions when it
-is called.
+  is called.
 - **Scope**: the area in your program where a specific variable can be called.
 
-***
+---
 
 ## Introduction
 
@@ -32,7 +32,7 @@ In this lesson, we'll show how to use control flow to run the same line(s) of
 code multiple times in a loop. Make sure to follow along by opening the Python shell
 and experimenting with the example code.
 
-***
+---
 
 ## Basic Loops in Python
 
@@ -87,7 +87,7 @@ A `for` loop in Python automatically proceeds to the next element of the
 iterable object in its constructor; there is no need to specify that the loop
 is stopping at a certain point or increasing after each iteration.
 
-***
+---
 
 ## List Comprehensions
 
@@ -141,12 +141,12 @@ loop is better suited for. There are two main factors to keep in mind when
 choosing between the two:
 
 1. List comprehensions should only be used for loops where the output is an
-iterable object such as a `list` or `set`.
+   iterable object such as a `list` or `set`.
 2. `for` loops separate steps into different lines, which is how human eyes
-expect to see instructions. List comprehensions are restricted to a single line
-and can be difficult for other humans to understand.
+   expect to see instructions. List comprehensions are restricted to a single line
+   and can be difficult for other humans to understand.
 
-***
+---
 
 ## Instructions
 
@@ -203,7 +203,7 @@ fizzbuzz()
 # Buzz
 ```
 
-***
+---
 
 ## Resources
 
